@@ -1,6 +1,10 @@
 # vite-preact
 Development template for Preact Applicatioin
 
+## Setup
+
+git clone https://github.com/manit-tree/vite-preact.git [folder-name]
+
 ## Folder Structure
 
 ![image](https://github.com/user-attachments/assets/a36ddb37-b646-42b3-9881-06ccca5fa964)
