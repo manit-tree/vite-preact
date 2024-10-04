@@ -4,6 +4,9 @@ import preact from '@preact/preset-vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    "process.env.IS_PREACT": JSON.stringify("true"),
+  },
   plugins: [
     cssInjectedByJsPlugin(),
     preact()
